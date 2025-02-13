@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* color:#4e4e4e; */
+  }
+  td>p{
+    color: #4E4E4E;
+  margin-bottom: 0px;
+  }
+  .elektrapadingtop{
+      padding-top: 3rem;
+      padding-bottom: 1rem;
+  }
+  .elekracontainer{
+      /* border: 1px solid red;s */
+      background-color: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, .03) !important;
+      min-height: 500px;
+      padding-bottom: 2rem;
+      min-width: 100%;
+  }
+  .selectcolor {
+    color: rgb(121, 124, 139);
+    font-size: 14px;
+  }
+  .fontheading{
+      font-size: clamp(1.375rem, 1.3rem + 0.375vw, 1.75rem);
+      line-height: 1;
+      font-weight: 300;
+      margin-bottom: 0px;
+  
+  }
+  .fontheading2{
+      font-size: clamp(0.75rem, 0.7rem + 0.25vw, 1rem);
+      line-height: 1;
+      font-weight: 300;
+  
+  
+  }
+  .theadcolor {
+    color: white !important;
+    font-size: clamp(0.8125rem, 0.8rem + 0.0625vw, 0.875rem);
+    font-weight: 900;
+    line-height: 1.2;
+    font-family:  "Nunito Sans";
+  
+  }
+  .thead {
+  
+    background-color: #1ea8e7;
+  
+  }
+  .tbody {
+    font-size: clamp(0.5rem, 0.3864rem + 0.5682vw, 0.8125rem);
+    font-family: 'Poppins';
+    font-weight: 400;
+    /* color:#4e4e4e !important; */
+    /* color:red !important; */
+  
+    line-height: 1.2;
+  }
+  .buttoncolor:focus {
+    background-color: #1ea8e7;
+  }
+  .buttoncolor:hover {
+    background-color: #1ea8e7;
+  }
+  .buttoncolor {
+    background-color: #1ea8e7;
+    display: inline-block;
+    height: 35px;
+    padding: 8px 18px;
+    line-height: 1.2;
+    border: none;
+    border-radius: 5px;
+    font-size: clamp(0.625rem, 0.575rem + 0.25vw, 0.875rem);
+    font-weight: 500;
+    color: #797c8b;
+  }
+  .badgeclasssuccess {
+    padding: 5px 10px;
+    font-size: clamp(0.5rem, 0.4545rem + 0.2273vw, 0.625rem);
+    line-height: 1.2;
+  
+    border-radius: 3px;
+  }
+  .badgeclass {
+    padding: 5px 10px;
+    font-size: clamp(0.5rem, 0.4545rem + 0.2273vw, 0.625rem);
+    line-height: 1.2;
+  
+    border-radius: 3px;
+  }
+  .filterbutton:hover {
+    background-color: #1ea8e7;
+  }
+  .filterbutton {
+    width: clamp(7.1875rem, 6.875rem + 1vw, 7.4375rem);
+    height: clamp(2.5rem, 2.1094rem + 1.25vw, 2.8125rem);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.2;
+    background-color: #1ea8e7;
+  }
+  
