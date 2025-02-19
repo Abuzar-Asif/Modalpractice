@@ -1,11 +1,34 @@
+
 .maincontainer{
-    min-Height: "100vh",
+    min-height: 100vh,
 }
 .backimage{
                 background-image:url("./backgroundlogin.jpg");
-              background-size: "cover";
               background-position: "center";
-              min-height: "100vh";
+             /* min-height: 100%; */
               background-repeat: "no-repeat";
               object-fit: "cover";
+}
+.bgdiv{
+           background: linear-gradient(135deg, #09C6F9 10%, #045DE9 100%);
+}
+.bgheading{
+        font-size: clamp(3rem, 0.815rem + 3.5242vw, 5rem);
+                  line-height:1.1;
+}
+.bgsubheading{
+                  font-size:clamp(1.2rem, 0.326rem + 1.4097vw, 2rem);
+
+}
+.logoheading{
+       font-size:clamp(1.5rem, 1.4266rem + 0.367vw, 2rem);
+                  font-Weight: 700,
+}
+.logosubheading{
+      font-size:clamp(0.75rem, 0.6741rem + 0.3797vw, 1.125rem);
+                  color: "#AAABB0";
+                  font-weight: 500;
+}
+.logoformheight{
+    height: "40px"
 }
