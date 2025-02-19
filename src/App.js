@@ -1,5 +1,6 @@
 import React from 'react'
-import ElektraTable from './Elektra/ElektraTable'
+import Login from './Login'
+// import ElektraTable from './Elektra/ElektraTable'
 // import Modal from './Component/Modal'
 // import Strap from './Strap'
 
@@ -9,7 +10,8 @@ const App = () => {
     {/* <Modal/>
     <Strap/>
      */}
-     <ElektraTable/>
+     {/* <ElektraTable/> */}
+     <Login/>
     </>
   )
 }
