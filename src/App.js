@@ -1,4 +1,5 @@
 import React from 'react'
+// import TooltipExample from './Tooltip/Tooltip'
 import Login from './Login'
 // import ElektraTable from './Elektra/ElektraTable'
 // import Modal from './Component/Modal'
@@ -12,6 +13,7 @@ const App = () => {
      */}
      {/* <ElektraTable/> */}
      <Login/>
+     {/* <TooltipExample/> */}
     </>
   )
 }
